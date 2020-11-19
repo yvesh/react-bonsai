@@ -2779,6 +2779,11 @@ bonjour@^3.5.0:
     multicast-dns "^6.0.1"
     multicast-dns-service-types "^1.1.0"
 
+bonsai.css@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bonsai.css/-/bonsai.css-1.1.0.tgz#9de81139e95c578a1fe02038e919fbf39a039697"
+  integrity sha512-dpIeuerCNjGKoPCvdTLhboY6H+k4XG4naP7WyiX7G9adS24rD5qirGXZe7g2kG/XZM/sHymIfe9g5lwvzqh+/g==
+
 boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"

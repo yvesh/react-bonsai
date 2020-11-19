@@ -1,30 +1,37 @@
-# react-bonsai
+# React-Bonsai
+
+## Not ready for production, just an experiment.
 
 > Bonsai.css React Components
 
 [![NPM](https://img.shields.io/npm/v/react-bonsai.svg)](https://www.npmjs.com/package/react-bonsai) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
+### Install
 
 ```bash
-npm install --save react-bonsai
+yarn add react-bonsai
 ```
 
-## Usage
+### Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react';
 
-import MyComponent from 'react-bonsai'
-import 'react-bonsai/dist/index.css'
+import Alert from 'react-bonsai';
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const MyComponent = (props) =>  {
+  return (
+    <Alert>
+      Welcome to React-Bonsai
+    </Alert>
+  );
 }
 ```
 
-## License
+### Start the examples / Demo
 
-MIT © [yvesh](https://github.com/yvesh)
+Built the library with `yarn build`. Navigate to the example directory (`cd example`) and run yarn start.
+
+### License
+
+MIT © [Yves Hoppe](https://github.com/yvesh)

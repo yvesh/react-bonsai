@@ -1,4 +1,4 @@
-import './index.css'
+import 'bonsai.css/dist/bonsai.min.css';
 
 import React from 'react'
 import ReactDOM from 'react-dom'
